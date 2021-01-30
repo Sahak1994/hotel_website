@@ -55,15 +55,33 @@ p {
   color: #333;
 }
 
-.btn-light {
+.bg-light {
   background-color: #f4f4f4;
   color: #333;
 }
 
-.btn-primary {
+.bg-dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.bg-primary {
   background-color: #f7c08a;
   color: #333;
 }
+
+.clr {
+  clear: both;
+}
+
+.l-heading {
+  font-size: 40px;
+}
+
+/* Padding */
+.py-1 { padding: 10px 0 }
+.py-2 { padding: 20px 0 }
+.py-3 { padding: 30px 0 }
 
 /* Navbar */
 #navbar {
@@ -146,4 +164,78 @@ p {
 
 #home-info .info-content p {
   padding-bottom: 30px;
+}
+
+/* Features */
+#features {
+  height: 350px;
+}
+
+.box {
+  display: table-cell;
+  width: 33.3%;
+  height: inherit;
+  float: left;
+  padding: 50px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+/* About Info */
+#about-info .info-left {
+  width: 50%;
+  float: left;
+  min-height: 100%;
+}
+
+#about-info .info-right {
+  width: 50%;
+  float: right;
+  min-height: 100%;
+}
+
+#about-info .info-right img {
+  display: block;
+  width: 70%;
+  margin: auto;
+  border-radius: 50%;
+  min-height: 100%;
+}
+
+/* Testimonials */
+#testimonials {
+  height: 600px;
+  background: url('../images/test-bg.jpg') no-repeat center center/cover;
+  padding-top: 100px;
+}
+
+#testimonials h2 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#testimonials .testimonial {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+#testimonials .testimonial img {
+  width: 100px;
+  float: left;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+/* Footer */
+#main-footer {
+  background-color: #444;
+  padding: 20px;
+  text-align: center;
 }
