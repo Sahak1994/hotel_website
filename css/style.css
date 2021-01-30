@@ -167,18 +167,18 @@ p {
 }
 
 /* Features */
-#features {
-  height: 350px;
-}
+
 
 .box {
-  display: table-cell;
   width: 33.3%;
-  height: inherit;
   float: left;
   padding: 50px;
   text-align: center;
   overflow: hidden;
+}
+
+.box h2 {
+  white-space: nowrap;
 }
 
 .box i {
@@ -231,6 +231,33 @@ p {
   float: left;
   border-radius: 50%;
   margin-right: 20px;
+}
+
+/* Contact form */
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border: 1px solid #f7c08a;
+}
+
+#contact-form textarea {
+  height: 200px;
 }
 
 /* Footer */
